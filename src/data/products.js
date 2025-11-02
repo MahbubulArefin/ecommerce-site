@@ -1,38 +1,44 @@
+import androidMobile from "../data/smartphone.jpg";
+import headPhone from '../data/headphone.jpg';
+import LapTop from '../data/laptop.jpg';
+import Tab from '../data/tab.jpg';
+import SmartWatch from '../data/smartwatch.jpg';
+
 const products = [
   {
     id: 1,
     name: "Smartphone",
     price: 699,
-    image: "https://placehold.co/200x200",
+    image: androidMobile,
     description: "A powerful smartphone with the latest features.",
   },
   {
     id: 2,
     name: "Headphones",
     price: 199,
-    image: "https://placehold.co/200x200",
+    image: headPhone,
     description: "Noise-cancelling over-ear headphones.",
   },
   {
     id: 3,
     name: "Laptop",
     price: 1299,
-    image: "https://placehold.co/200x200",
+    image: LapTop,
     description: "High-performance laptop for professionals.",
   },
   {
     id: 4,
     name: "Tab",
     price: 789,
-    image: "https://placehold.co/200x200",
+    image: Tab,
     description: "Latest model tab for students.",
   },
   {
     id: 5,
     name: "Smartwatch",
     price: 499,
-    image: "https://placehold.co/200x200",
-    description: "A modern day device for you to keep you punctual and up to date.",
+    image: SmartWatch,
+    description: "A modern device to keep you punctual and connected.",
   },
 ];
 
